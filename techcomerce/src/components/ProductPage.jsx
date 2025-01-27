@@ -1,5 +1,5 @@
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // Importa os estilos do carrossel
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from "react-responsive-carousel";
 import "./ProductPage.css";
 
@@ -13,7 +13,7 @@ const ProductPage = () => {
           infiniteLoop
           showThumbs={false}
           showStatus={false}
-          interval={3000}
+          interval={2000}
         >
           <div>
             <img src="/banners/image1.jpeg" alt="Banner 1" />
