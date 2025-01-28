@@ -1,19 +1,10 @@
 import React from 'react';
-import Header from './components/header';
 import './App.css';
-import Footer from './components/footer';
-import ProductPage from "./components/ProductPage";
-
-
+import AppRoutes from './rouetrs';
 
 function App(){
   return(
-
-  <div className="app-container">
-    <Header />
-    <ProductPage />
-    <Footer />
-  </div>
+    <AppRoutes />
   );
 }
   export default App
